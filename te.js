@@ -122,10 +122,13 @@ function setone() {
 
     if (document.getElementById("one").checked) {
         sum = sum + 10;
+        document.getElementById("one").checked = false;
     } else if (document.getElementById("two").checked) {
         sum = sum + 20;
+        document.getElementById("two").checked = false;
     } else if (document.getElementById("three").checked) {
         sum = sum + 30;
+        document.getElementById("three").checked = false;
     }
 
 }
@@ -143,10 +146,13 @@ function setnet() {
     var t = qs;
     if (document.getElementById("choiceone").checked) {
         sum += t[stl][0];
+        document.getElementById("choiceone").checked = false;
     } else if (document.getElementById("choicetwo").checked) {
         sum += t[stl][1];
+        document.getElementById("choicetwo").checked = false;
     } else if (document.getElementById("choicethree").checked) {
         sum += t[stl][2];
+        document.getElementById("choicethree").checked = false;
     }
     //  alert(sum);
     stl++;
