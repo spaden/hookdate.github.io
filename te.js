@@ -167,11 +167,11 @@ document.getElementById("nex").onclick = function() {
 var k = 0;
 document.getElementById("nex1").onclick = function() {
     var ret = new Array();
-    ret[0] = ["You will be married between 18 to 25 years of your age", "The colors that you have choosen shows that you have a burning desire to get married. For you getting married and raising babies is one of your main priorities."];
-    ret[1] = ["You will be married between 26 to 35 years", "The colors that you have choosen shows that you see marriage as something normal and natural that everybody fucking does. You do not want to get married way too early, you wanna discover new things and enjoy life instead of cleaning the damn diapers."];
-    ret[2] = ["You will be married between 36 to 45 years", "The colors that you have choosen shows that you are someone who is looking for wisdom, experience and stability before embarking on this fucking borzwasi shit. You certainly have other priorities in life, like realizing your dreams first, getting your hands on business with new ideas. Then marriage will come later."];
+    ret[0] = ["You will be married between 18 to 25 years of your age", "The colors that you have choosen shows that you have a burning desire to get married. For you getting married is one of your main priorities."];
+    ret[1] = ["You will be married between 26 to 35 years", "The colors that you have choosen shows that you see marriage as something normal and natural. You do not want to get married way too early, you wanna discover new things and enjoy life"];
+    ret[2] = ["You will be married between 36 to 45 years", "The colors that you have choosen shows that you are someone who is looking for wisdom, experience and stability before embarking on this life. You certainly have other priorities in life, like realizing your dreams first, getting your hands on business with new ideas. Then marriage will come later."];
     ret[3] = ["You will be married between over 45 years", "The colors you have choosen show that you only wish to marry later in life because you see marriage as a prison and you still want to enjoy your freedom."];
-    ret[4] = ["You will never marry sorry for that dude@@@", "The colors you have choosen shows that you see marriage in a very negative way. It doesn't fucking mean that you will not find your soulmate, instead you just don't want to get fucking married."];
+    ret[4] = ["You will never marry sorry for that dude@@@", "The colors you have choosen shows that you see marriage in a very negative way. It doesn't mean that you will not find your soulmate, instead you just don't want to get married."];
     k++;
     setnet();
 
